@@ -1,0 +1,29 @@
+{
+  "testdata": {
+    "employeeauthrequest": {
+      "password": "Password123",
+      "username": "nhsbsa.nhsjobs@nhsbsa.nhs.uk"
+    },
+    "employerRegistrationTestData": {
+      "organisationType": "Charity",
+      "employerCode": "N0001",
+      "charityNumber": "AAAA111111",
+      "accountCode": "111111",
+      "contactPerson": {
+        "firstName": "Michael",
+        "lastName": "Conway",
+        "emailAddress": "michael.conway1@nhs.net",
+        "telephoneNumber": "01914885555"
+      },
+      "addressDetails": {
+        "addressLine1": "10, Chillingham Road",
+        "organisationName": "Tyne Health",
+        "addressLine2": "Heaton",
+        "town": "Newcastle Upon Tyne",
+        "county": "Tyne and Wear",
+        "postcode": "NE7 7AD"
+      },
+      "privacyNoticeURL": "http://www.nhs.co.uk"
+    }
+  }
+}

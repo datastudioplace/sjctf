@@ -1,0 +1,25 @@
+package com.localhost8888.utilities;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ConfigReader {
+
+  public Properties initializeProperties() {
+
+    Properties prop = new Properties();
+    File proFile =
+        new File(
+            System.getProperty("user.dir")
+                + "\\src\\test\\resources\\com.localhost8888.config\\com.localhost8888.config.properties");
+    FileInputStream fis;
+    try {
+      fis = new FileInputStream(proFile);
+      prop.load(fis);
+    } catch (Throwable e) {
+      e.printStackTrace();
+    }
+    return prop;
+  }
+}

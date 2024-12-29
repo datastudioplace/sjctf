@@ -1,0 +1,73 @@
+{
+  "navigationMenu": [
+    {
+      "category": "Home",
+      "items": [
+        "Specials",
+        "Account",
+        "Login",
+        "Check Your Order",
+        "Cart",
+        "Checkout"
+      ]
+    },
+    {
+      "category": "Apparel & accessories",
+      "items": [
+        "Shoes",
+        "T-shirts"
+      ]
+    },
+    {
+      "category": "Makeup",
+      "items": [
+        "Cheeks",
+        "Eyes",
+        "Face",
+        "Lips",
+        "Nails",
+        "Value Sets"
+      ]
+    },
+    {
+      "category": "Skincare",
+      "items": [
+        "Eyes",
+        "Face",
+        "Gift Ideas & Sets",
+        "Hands & Nails",
+        "Sun"
+      ]
+    },
+    {
+      "category": "Fragrance",
+      "items": [
+        "Men",
+        "Women"
+      ]
+    },
+    {
+      "category": "Men",
+      "items": [
+        "Body & Shower",
+        "Fragrance Sets",
+        "Pre-Shave & Shaving",
+        "Skincare"
+      ]
+    },
+    {
+      "category": "Hair Care",
+      "items": [
+        "Conditioner",
+        "Shampoo"
+      ]
+    },
+    {
+      "category": "Books",
+      "items": [
+        "Audio CD",
+        "Paperback"
+      ]
+    }
+  ]
+}

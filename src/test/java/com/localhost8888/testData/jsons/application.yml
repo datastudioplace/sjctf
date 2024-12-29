@@ -1,0 +1,14 @@
+employerDatabase: administrator-auth_pgdb
+vacancyDatabase: vacancy_pgdb
+candidateDatabase: customer-auth_pgdb
+jobadvertDatabase: job-advert_pgdb
+applicationDatabase: application_pgdb
+shortlistingDatabase: shortlisting_pgdb
+interviewDatabase: interview_pgdb
+offerDatabase: offer_pgdb
+issueContractDatabase: issue-contract_pgdb
+workflowDatabase: workflow_pgdb
+reportingDatabase: reporting-data_pgdb
+
+
+

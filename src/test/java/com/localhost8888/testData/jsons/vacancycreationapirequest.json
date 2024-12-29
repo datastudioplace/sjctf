@@ -1,0 +1,191 @@
+{
+  "testdata": {
+    "vacancyRequest": {
+      "departmentId": null,
+      "departmentSelected": false,
+      "reasonForRole": "REPLACEMENT",
+      "fte": 92,
+      "vacancyDetails": {
+        "jobTitle": "Test title",
+        "contract": {
+          "type": "Permanent",
+          "duration": null,
+          "workingPattern": {
+            "fullTime": true,
+            "partTime": true,
+            "jobShare": false,
+            "flexibleWorking": true,
+            "remoteWorking": false,
+            "compressedHours": false,
+            "termTimeHours": false,
+            "annualisedHours": false,
+            "unitsPerWeek": null
+          }
+        },
+        "salary": {
+          "range": {
+            "min": 10000.25,
+            "max": 23500.5,
+            "unit": "a year"
+          },
+          "expectedSalaryType": "Range",
+          "additionalDetails": ""
+        },
+        "payScheme": {
+          "band": "SPECIALTY_DOCTOR",
+          "type": "HOSPITAL_MEDICAL_DENTAL"
+        }
+      },
+      "employer": {
+        "name": "Tyne Health",
+        "logoFileId": null,
+        "address": {
+          "line1": "10, Chillingham Road",
+          "line2": "Heaton",
+          "town": "Newcastle Upon Tyne",
+          "county": "Tyne and Wear",
+          "postcode": "NE7 7AD"
+        }
+      },
+      "staffGroup": "CLINICAL_SERVICES",
+      "areaOfWork": "Autonomic Science",
+      "jobAdvert": {
+        "jobOverview": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ma",
+        "jobDescription": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ma",
+        "aboutOrganisation": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean ma"
+      },
+      "jobDescription": "To provide clinical leadership to staff working within the Community Service contract to ensure safe and effective delivery of clinical interventions in line with professional standards and governance requirements",
+      "personSpecification": [
+        {
+          "skillCategory": "Qualifications",
+          "essentialSkill": "Communication",
+          "desirableSkill": "Critical Thinking For Qualification"
+        },
+        {
+          "skillCategory": "Experience",
+          "essentialSkill": "Communication 2",
+          "desirableSkill": "Critical Thinking 2"
+        }
+      ],
+      "hasSupportingDocuments": false,
+      "hasInternalDocuments": false,
+      "contactDetails": {
+        "name": "EmpNameAdmin",
+        "jobTitle": "EmpJobTitleAdmin",
+        "contactNumber": "07345267728",
+        "email": "admin@admin.com"
+      },
+      "closingDate": "31/12/2023",
+      "closingDateModel": {
+        "day": "31",
+        "month": "12",
+        "year": "2023"
+      },
+      "requirements": {
+        "dbs": true,
+        "sponsorship": true,
+        "professionalRegistration": true,
+        "fitnessToPractise": false,
+        "enhancedDbs": "YES_BASIC",
+        "includeDbsQuestion": true,
+        "legacySafeguarding": null
+      },
+      "safeguarding": {
+        "convictions": true,
+        "police": false
+      },
+      "multipleLocations": false,
+      "additionalLocations": [],
+      "applicationMethod": "ONLINE",
+      "preApplicationQuestions": [
+        {
+          "questionId": 3,
+          "questionParameter": "Have you passed PLAB 2?"
+        }
+      ],
+      "advertiseType": "INTERNALLY",
+      "esrDetails": null,
+      "isCovidRelated": false,
+      "shortlistType": "ONLINE",
+      "shortlistingPanel": {
+        "leadId": 0,
+        "hasAdditionalPanelists": false
+      },
+      "recruitmentDetails": {
+        "isLoggedUserTheRm": "YES",
+        "isRecruitingManager": "YES",
+        "recruitmentAdminKnown": "NO",
+        "adminUnassigned": true
+      },
+      "isReusedVacancy": false,
+      "hasJobSpecificRoles": false,
+      "jobSpecificCategories": [],
+      "approval": {
+        "approvers": []
+      },
+      "synchronisedApproval": null,
+      "uiData": [
+        {
+          "flowPosition": "jobTitle",
+          "section": "JOB_TITLE",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "applicationMethod",
+          "section": "JOB_AND_PAY",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "jobLocationsReview",
+          "section": "LOCATION",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "closingDate",
+          "section": "CONTACT_DETAILS",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "jobAdvert",
+          "section": "JOB_ADVERT",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "jobDescription",
+          "section": "JOB_DESCRIPTION",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "personSpecification",
+          "section": "PERSON_SPECIFICATION",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "documentUploadQuestion",
+          "section": "SUPPORTING_DOCUMENTS",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "preAppQuestion",
+          "section": "PRE_APP_QUESTIONS",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "fitnessToPractice",
+          "section": "ADDITIONAL_APP_QUESTIONS",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": null,
+          "section": "INTERNAL_DOCUMENTS",
+          "status": "COMPLETED"
+        },
+        {
+          "flowPosition": "shortlistMethod",
+          "section": "RECRUITMENT_TEAM",
+          "status": "COMPLETED"
+        }
+      ]
+    }
+  }
+}

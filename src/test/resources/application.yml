@@ -1,0 +1,7 @@
+employerDatabase: employer-auth_pgdb
+customersDatabase: customersDatabase
+workflowDatabase: workflow_pgdb
+reportingDatabase: reporting-data_pgdb
+
+
+
